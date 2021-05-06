@@ -1,3 +1,4 @@
+# コレクション志向
 class User
   attr_reader :id, :name
 
