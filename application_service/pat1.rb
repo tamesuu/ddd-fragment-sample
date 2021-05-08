@@ -49,4 +49,4 @@ class UserApplicationService
   end
 end
 
-p UserApplicationService(UserExistService.new).new.register('new_user222!')
+p UserApplicationService.new(UserExistService.new).register('new_user222!')
